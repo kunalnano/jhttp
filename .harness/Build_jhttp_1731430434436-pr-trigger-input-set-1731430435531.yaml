@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jhttp_1731430434436-pr-trigger-input-set
+  identifier: Build_jhttp_1731430434436prtriggerinputset
+  orgIdentifier: TPMLabs
+  projectIdentifier: testal
+  pipeline:
+    identifier: Build_jhttp_1731430434436
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
