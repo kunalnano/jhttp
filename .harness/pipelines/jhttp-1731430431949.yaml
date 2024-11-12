@@ -24,7 +24,7 @@ pipeline:
                   name: run install
                   spec:
                     shell: Sh
-                    command: mvn clean install -Dskip Tests
+                    command: mvn clean install -DskipTests
                   timeout: ""
                   type: Run
               - step:
